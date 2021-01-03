@@ -1,0 +1,19 @@
+name: app
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  app:
+    main: src/stream_celestine.cr
+
+dependencies:
+  celestine:
+    github: celestinecr/celestine
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.35.1
+
+license: MIT
